@@ -1,0 +1,28 @@
+/* Space out content a bit */
+body {
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-bar {
+  background-color: rgba(0,0,0,1);
+}
+
+.jumbotron {
+  background-color: #18191b;
+  color: #d1d6e1;
+  background-image: url("../img/bg-dc-11.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+}
