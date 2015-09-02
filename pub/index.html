@@ -47,15 +47,15 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Charter</a></li>
-            <li><a href="https://twitter.com/inognet"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="btn btn-link" href="/">Home</a></li>
+            <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></li>
+            <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <!-- disable until accounts are created
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook" target="_blank"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope" target="_blank"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus" target="_blank"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss" target="_blank"></i></a></li>
             -->
           </ul>
         </div>
@@ -112,9 +112,27 @@ destination for emerging network sciences.</li>
 
       <hr>
       <footer>
-        <p><a class="text-warning" href="http://www.inog.net"><strong>iNOG</strong></a> v1.0 &copy; 2015</p>
+        <p><a class="text-warning" href="http://www.inog.net"><strong>iNOG</strong></a> v1.0 &copy; 2015 | <a class="text-warning" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></p>
       </footer>
     </div> <!-- /container -->
+
+    <!-- Code of Conduct Modal -->
+    <div class="modal fade" id="CofCmodal" tabindex="-1" role="dialog" aria-labelledby="CofCmodalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="CofCmodalLabel">iNOG Code of Conduct</h4>
+          </div>
+          <div class="modal-body">
+            <p></p>
+            <p>The short version: <strong>Be excellent to each other.</strong></p>
+            <p>Our group is dedicated to providing a harassment-free event experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof).</p>
+            <p>We do not tolerate harassment of group participants in any form. Sexual language and imagery is not appropriate for any meetup venue, including talks, workshops, parties, Twitter and other online media. Group participants violating these rules may be sanctioned or expelled from the group (without a refund if applicable) at the discretion of the group organisers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
