@@ -26,3 +26,14 @@ body {
 .jumbotron h1 {
   color: #ffffff;
 }
+
+.MeetupBox {
+    margin-top:10px;
+    border: #d1d6e1 medium solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    color: #fff;
+}
