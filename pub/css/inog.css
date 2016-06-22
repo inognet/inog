@@ -33,7 +33,11 @@ body {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px 0px 15px;
     text-align: center;
     color: #fff;
+}
+.futuremeets {
+    color: #d1d6e1;
+    font-size: 70%;
 }
