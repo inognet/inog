@@ -10,7 +10,7 @@
     <meta property="og:description" content="iNOG: accelerating
     interconnectedness in Ireland and beyond"/>
     <meta property="og:image"
-    content="https://inog.net/img/inog-social-share-v1.jpg">
+    content="https://inog.net/img/inog-social-share.png">
     <meta property="og:url" content="https://inog.net/">
     <meta property="og:site_name" content="iNOG"/>
     <meta property="og:type" content="website"/>
@@ -23,8 +23,7 @@
     <!-- Custom styles for this template -->
     <link href="css/inog.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-    >
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,86 +45,255 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="btn btn-link" href="/">Home</a></li>
+            <li><a class="btn btn-link" href="/"><strong>Home</strong></a></li>
+            <!-- <li><a class="btn btn-link" href="people.html">People</a></li> -->
             <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></li>
+            <li><a class="btn btn-link" href="https://inog.net/talk"><div class="text-success">Propose a Talk!</div></a></li>
+            <li><a class="btn btn-link" href="http://slack.inog.net:3000/" target="_blank">Connect</a></li>
+            <li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank">Videos</a></li>
             <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <!-- disable until accounts are created
-            <li><a href="#"><i class="fa fa-facebook" target="_blank"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" target="_blank"></i></a></li>
-            <li><a href="#"><i class="fa fa-envelope" target="_blank"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus" target="_blank"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss" target="_blank"></i></a></li>
-            -->
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- Main site header  -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, Ireland!</h1>
-        <p>Let's get connected. The Irish Network Operators Group (iNOG) is re-birthing local community around network engineering, learning, and a new Community of Practice. We're focused on diversity, learning, sharing, and of course connecting. Help us accelerate interconnectedness!</p>
+        <div class="col-lg-9">
+          <h1>Hello, Ireland!</h1>
+          <p>Let's build an inclusive, open, and healthy Community of Practice around all aspects of network engineering. The Irish Network Operators Group (iNOG) is re-birthing local community around network engineering and learning. We're focused on diversity, sharing, and of course connecting and having fun.</p>
+        </div>
+        <div class="col-lg-3">
+         <div class="MeetupBox">
+          <p><strong>iNOG::C</strong></p>
+          <p>Thu 08 Jun 2017
+          <br>6:00 PM to 9:30 PM
+          <br>Amazon, Dublin</p>
+          <p><a href="https://www.meetup.com/Irish-Network-Operators-Group/events/228394351/" target="_blank" class="btn btn-warning"><strong>RSVP on Meetup!</strong></a></p>
+          <p><small class="futuremeets"></small></p>
+         </div>
+        </div>
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
         <div class="col-lg-6">
-          <h3>Get in touch</h3>
-          <p>We have a Google Group set up as a forum/mailing list, <a href="https://groups.google.com/d/forum/inog" target="_blank" class="text-success"><strong>join it here.</a></strong> It is our main point of contact, but you should find us on all major social networks - look in the top right corner.</p>
-
-        </div>
-        <div class="col-lg-6">
-          <h3>Our objectives</h3>
+          <h3>iNOG::B <small>07.03.2017</small></h3>
+          <p class="h5">Googlicious garage style networking</p>
+          <p>For our second visit to <strong><a href="https://careers.google.com/jobs" target="_blank" class="text-success">Google</a></strong> we were privy to double demos, new BGP extensions, and the SRE(Site Reliability Engineer) mindset exposed. An evening of learning and sharing from the garage with new stickers for all thanks to the wonderful work of <strong><a href="https://twitter.com/Barrykeegan" target="_blank" class="text-success">Mr. Keegan</a></strong>!</p>
           <ul>
-          <li>To build an inclusive, open, and healthy Community of Practice
-around all aspects of network engineering.</li>
-          <li>To share, learn, teach, mentor, socialise, and have *fun* at
-regular meet-ups and events.</li>
-          <li>To connect diverse people, groups, machines, and agents for the
-betterment of people and planet.</li>
-          <li>To promote Ireland as a hub of innovation, excellence, and a
-destination for emerging network sciences.</li>
+            <li><strong class="text-primary"><a href="https://twitter.com/vazic" target="_blank" class="text-primary">Victor Zakharyev</a></strong> (Workday) Simple Network Monitoring - <a href="files/iNOGB-Victor-SNM.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/barryo79" target="_blank" class="text-primary">Barry O’Donovan</a></strong> (INEX) BGP Large Communities Attribute RFC8092 - <a href="files/iNOGB-Barry-BGP.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong><a href="http://www.costiser.ro" target="_blank" class="text-primary">Costi Serban</a></strong> (NetEng) OpenFlow is not dead! - <a href="files/iNOGB-Costi-Openflow.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a> + <a href="http://costiser.ro/2017/03/07/sdn-lesson-2-introducing-faucet-as-an-openflow-controller/" target="_blank" class="text-warning"><strong>BLOGPOST</strong></a></li>
+            <li><strong class="text-primary"><a href="https://www.linkedin.com/in/laura-nolan-bb7429/" target="_blank" class="text-primary">Laura Nolan</a></strong> (Google) SRE Philosophy - <a href="files/iNOGB-Laura-SRE.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
           </ul>
+          <p>Special mention to <strong><a href="https://twitter.com/_shan3k"  target="_blank" class="text-success">Shane</a></strong> who drove the whole shebang! Also to <strong><a href="https://twitter.com/mellowdrifter" target="_blank" class="text-success">Darren</a></strong> and <strong><a href="https://twitter.com/philsykesip" target="_blank" class="text-success">Phil</a></strong> who helped orchestrate and intro the night. Thank you dear Googlers! For full size versions of the photos below (and more) check out the view through the lens of a smartphone <strong><a href="https://goo.gl/photos/3Wcy3rqsDX8t5CJRA" target="_blank" class="text-success">over here.</a></strong></p>
+          <div class="col-lg-3"><p><a href="img/inog-m-b-1.jpg" target="_blank"><img src="img/inog-m-b-1.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-b-2.jpg" target="_blank"><img src="img/inog-m-b-2.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-b-3.jpg" target="_blank"><img src="img/inog-m-b-3.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-b-4.jpg" target="_blank"><img src="img/inog-m-b-4.jpg" class="img-responsive"></a></p></div>
         </div>
-      </div>
-
-      <div class="row">
         <div class="col-lg-6">
-          <h3>iNOG::3<br><small>Save the date!</small></h3>
-          <p>Yes, you heard it right: we already have a date for <strong>iNOG::3</strong>!!! Stay tuned for more details, agenda will follow closer to the event (but we already have lots of juicy talks on offer!)</p>
-          <p><strong>When:</strong> Tues Oct 6th 7pm-9pm</p>
-          <p><strong>Where:</strong> Watermarque Bldg. (Corner West Entrance) @ Airbnb - Dublin</p>
+          <h3>The demo gods were smiling...<br></h3>
+          <p class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/38vsEtYNVTk" frameborder="0" allowfullscreen></iframe></p>
+          <p>Super thanks as always to greeters <strong><a href="https://twitter.com/networksherpa" target="_blank" class="text-primary">@John</a></strong>, <strong><a href="https://twitter.com/markwardbopp" target="_blank" class="text-primary">@Mark</a></strong> and <strong><a href="https://www.linkedin.com/in/ivanasjariga/" target="_blank" class="text-primary">@Ivan</a></strong> for setting the early vibe + also to <strong><a href="https://twitter.com/natural20" target="_blank" class="text-primary">@Brian</a></strong> , <strong><a href="https://twitter.com/taktv6" target="_blank" class="text-primary">@Oliver</a></strong> , and <strong><a href="https://twitter.com/pberndro" target="_blank" class="text-primary">@Philip</a></strong> for setting up the space!
           </p>
         </div>
+      </div>
+      <hr/>
+      <div class="row">
         <div class="col-lg-6">
-          <h3>iNOG::2<br><small>12!</small></h3>
+          <h3>iNOG::A <small>24.11.2016</small></h3>
+          <p class="h5">An all night IPv6 extravaganza</p>
+          <p>Our good friends in <strong><a href="http://sig.com/" target="_blank" class="text-success">SIG</a></strong> hosted us in their awesome offices for a night of pure IPv6 goodness. With talks both local and remote, with speakers from all over the globe, and a longer (but oh-so-enjoyable) social session at the end, it was a fitting last iNOG for such an amazing year!</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/orlamcgann" target="_blank" class="text-primary">Orla McGann</a></strong> (HEAnet) An Irish IPv6 Fairytale - <a href="files/iNOGA-An-Irish-IPv6-Fairytale.pptx" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/nathabeer" target="_blank" class="text-primary">Nathalie Trenaman</a></strong> (RIPE) The Sad Tale of 462 Operators Who Switched Off IPv6* (*with a happy ending) - <a href="files/iNOGA-Nathalie.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/ehorley" target="_blank" class="text-primary">Ed Horley</a></strong> (Groupware Technology) IPv6 Operating Challenges - <a href="files/iNOGA-ipv6-operator-preso.pptx" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          </ul>
+          <p>Great effort organizing this evening from <strong class="text-primary">Rommel</strong> (wouldn't have been there without you mate!)<strong class="text-primary">, Tom, Peter, Chris, Sinead, Mark, John, Richard</strong> and the extended SIG network team, all excellent people and solid supporters of iNOG! Photos below, awesome as always, from our master shooter <strong><a href="https://twitter.com/joseleitao">Jose</a></strong>!
+          </p>
+          <div class="col-lg-3"><p><a href="img/inog-m-a-1.jpg" target="_blank"><img src="img/inog-m-a-1.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-a-2.jpg" target="_blank"><img src="img/inog-m-a-2.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-a-3.jpg" target="_blank"><img src="img/inog-m-a-3.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-a-4.jpg" target="_blank"><img src="img/inog-m-a-4.jpg" class="img-responsive"></a></p></div>
+        </div>
+        <div class="col-lg-6">
+          <h3>A fairytale with dual-stack turkeys!<br></h3>
+          <p class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/WSH6jxmqrag" frameborder="0" allowfullscreen></iframe></p>
+          <p>Massive thanks to everyone that helped us on the night, the place was buzzing with activity. Special mentions go out to <strong class="text-primary"><a href="https://twitter.com/natural20" target="_blank" class="text-primary">Brian</a></strong> and <strong class="text-primary"><a href="https://twitter.com/zergless" target="_blank" class="text-primary">Lorcan</a></strong>, our most excellent greeters, and <strong class="text-primary">Kev, Richard and Ian</strong> our AV gurus!</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>iNOG::9 <small>28.09.2016</small></h3>
+          <p class="h5">A league all of its own with double XP for all attendees</p>
+          <p>Legendary evening at <strong><a href="http://www.riotgames.com/careers" target="_blank" class="text-success">Riot Games EU HQ</a></strong> who raised the bar once again on venue, preparation, and especially AV capture and share!</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/joseleitao" target="_blank" class="text-primary">Jose Leitao</a></strong> (Facebook) A Tale of Two Labels - <a href="files/iNOG9-A-Tale-of-Two-Labels.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/jedelman8" target="_blank" class="text-primary">Jason Edelman</a></strong> (Network to Code) Network Automation - <a href="files/iNOG9-Network-Automation.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a> and <a href="https://github.com/networktocode/inog9" target="_blank" class="text-warning"><strong>CODE</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/romagn" target="_blank" class="text-primary">Rodrigo Magno</a></strong> (Riot Games) Why the Internet Sucks - <a href="files/iNOG9-Why-the-Internet-sucks.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          </ul>
+          <p>Rioters <strong><a href="https://twitter.com/romagn" target="_blank" class="text-success">Rodrigo</a>, <a href="https://twitter.com/calimonk" target="_blank" class="text-success">Ivo</a>, <a href="https://www.linkedin.com/in/neoplanet" target="_blank" class="text-success">John</a></strong> and extended team really out did themselves on the evening and couldn't have supported the community more. What can we say except we're a lucky bunch o' neteng! Thank you! <strong><a href="http://www.riotgames.com/careers" target="_blank" class="text-success">Riot Games</a></strong> really is one place oozing both cool and culture! As always, a knowing nod and hat tip to presenter and photographer <strong><a href="https://twitter.com/joseleitao">Jose</a></strong> for braving the first slot and official photography!</p>
+          <div class="col-lg-3"><p><a href="img/inog-m-9-1.jpg" target="_blank"><img src="img/inog-m-9-1.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-9-2.jpg" target="_blank"><img src="img/inog-m-9-2.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-9-3.jpg" target="_blank"><img src="img/inog-m-9-3.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-9-4.jpg" target="_blank"><img src="img/inog-m-9-4.jpg" class="img-responsive"></a></p></div>
+        </div>
+        <div class="col-lg-6">
+          <h3>A pointer made of pure awesome!<br></h3>
+          <p class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/fS_q7o98JKI" frameborder="0" allowfullscreen></iframe></p>
+          <p>A mountain of thanks to everyone that helped us on the night, with special mentions for <strong class="text-primary"><a href="https://twitter.com/natural20" target="_blank" class="text-primary">Brian</a></strong> + <strong class="text-primary"><a href="https://twitter.com/networksherpa" target="_blank" class="text-primary">John</a></strong> who greeted all of our guests for the evening and <strong class="text-primary"><a href="https://twitter.com/markwardbopp" target="_blank" class="text-primary">Mark</a></strong> + <strong class="text-primary"><a href="https://twitter.com/Iamjeffvader" target="_blank" class="text-primary">Keith</a></strong> for getting us in touch with Rodrigo and making the whole thing possible!</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>iNOG::8 <small>19.07.2016</small></h3>
+          <p class="h5">No mention of Pokémon but eclectic nonetheless!</p>
+          <p>What a mix of topics! We were welcomed to Arista Networks' new space in the docklands on a super sunny July evening (but still managed to fill the presentation room)!</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/Iamjeffvader" target="_blank" class="text-primary">Keith Humphreys</a></strong> (Scamall Networks) MPLS Ain't Dead - <a href="files/iNOG8-MPLS-aint-dead.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://ie.linkedin.com/in/thomas-shine-3a407444" target="_blank" class="text-primary">Thomas Shine</a> and <a href="https://ie.linkedin.com/in/peterehiwe" target="_blank" class="text-primary">Peter Ehiwe</a></strong> (SIG) Network Provisioning and Integration Testing (using Ansible and Jenkins) - <a href="files/iNOG8-SIG.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://www.linkedin.com/in/aaronlevitan" target="_blank" class="text-primary">Aaron Levitan</a></strong> (Arista) Networking with Deep Buffers - <a href="files/iNOG8-Arista-Deep-Buffers.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/taktv6" target="_blank" class="text-primary">Oliver Herms</a> and <a href="https://twitter.com/pberndro" target="_blank" class="text-primary">Philip Berndroth</a></strong> (Freifunk) Bootstrapped Backbone - <a href="files/iNOG8-Freifunk.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          </ul>
+          <p>Much love to Alan, Emer, David and Colin in <strong><a href="https://www.arista.com/en/careers" target="_blank" class="text-success">Arista</a></strong> for their space, energy, munchies and welcome! Extra thanks to <strong><a href="https://twitter.com/zergless" target="_blank" class="text-primary">Lorcan</a></strong> from <strong><a href="http://www.heanet.ie/about/careers" target="_blank" class="text-success">HEAnet </a> / <a href="http://www.redbrick.dcu.ie/" target="_blank" class="text-success"> Redbrick DCU </a></strong> for being the AV guy on the night! Thanks also to Victor for set up and of course Jose for photography!</p>
+          <div class="col-lg-3"><p><a href="img/inog-m-8-1.jpg" target="_blank"><img src="img/inog-m-8-1.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-8-2.jpg" target="_blank"><img src="img/inog-m-8-2.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-8-3.jpg" target="_blank"><img src="img/inog-m-8-3.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-8-4.jpg" target="_blank"><img src="img/inog-m-8-4.jpg" class="img-responsive"></a></p></div>
+        </div>
+        <div class="col-lg-6">
+          <h3>A buffer full of NetEng!<br></h3>
+          <p class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/ugqblh-rlGI" frameborder="0" allowfullscreen></iframe></p>
+          <p>We thought no one would show up due to the weather but <strong class="text-primary"><a href="https://twitter.com/argally" target="_blank" class="text-primary">Amanda</a></strong>  and <strong><a href="https://twitter.com/drcross" target="_blank" class="text-primary">Dylan</a></strong> braved the sun outside to meet, greet, and be the shining faces of iNOG for the evening! Thanks a mil!</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>iNOG::7 <small>12.05.2016</small></h3>
+          <p class="h5">With blue skies and green fields we met!</p>
+          <p>We think this was one of the most social, mellow, and giggletastic' events kindly kneaded, baked, and recorded in Zendesk's new event space!</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/networksherpa" target="_blank" class="text-primary">John Harrington</a></strong> (NetEng) Network Truths, Fallacies, and Principles - <a href="files/inog7-john.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/argally" target="_blank" class="text-primary">Amanda Galligan</a></strong> (Workday) Taking the pain out of Change Validation - <a href="files/inog7-amanda.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/zendeluca" target="_blank" class="text-primary">Vicente De Luca</a></strong> (Zendesk) Monitoring Massive Network Metrics - <a href="files/inog7-vicente.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/donalcunningham" target="_blank" class="text-primary">Donal Cunningham</a></strong> (NetEng) Radio Fun - <a href="https://youtu.be/9LAbgSVfmtE?t=3960" target="_blank" class="text-warning"><strong>WATCH RECORDING</strong></a></li>
+          </ul>
+          <p>Super special thanks to Vicente and best of luck in SF, we're gonna miss you man and especially your energy! Extra thanks to Cassiano and Vinicius for all your ongoing support and orchestration in the wings and to <strong><a href="https://www.zendesk.com/jobs/" target="_blank" class="text-success">Zendesk</a></strong> for hosting us!</p>
+          <div class="col-lg-3"><p><a href="img/inog-m-7-1.jpg" target="_blank"><img src="img/inog-m-7-1.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-7-2.jpg" target="_blank"><img src="img/inog-m-7-2.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-7-3.jpg" target="_blank"><img src="img/inog-m-7-3.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-7-4.jpg" target="_blank"><img src="img/inog-m-7-4.jpg" class="img-responsive"></a></p></div>
+        </div>
+        <div class="col-lg-6">
+          <h3>More than a baker's dozen!<br></h3>
+          <p class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/9LAbgSVfmtE?start=40" frameborder="0" allowfullscreen></iframe></p>
+          <p>What a great evening that also saw <strong class="text-primary"><a href="https://twitter.com/nathabeer" target="_blank">Nathalie</a></strong> from <a href="https://www.ripe.net/" target="_blank">RIPE NCC</a> and <a href="https://nlnog.net/" target="_blank">NLNOG</a> not just visit and attend, but get stuck in welcoming and greeting people from the outset! Thanks a lot!</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>iNOG::6 <small>09.03.2016</small></h3>
+          <p class="h5">A storm of a time with Lightning and Thunder galore!</p>
+          <p>We think this was one of the funnest and biggest (almost 100 people) meetups yet!</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/joseleitao" target="_blank" class="text-primary">Jose Leitao</a></strong> (Facebook) Network Myths - <a href="files/inog6-JL-netmyths.pptx" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/mellowdrifter" target="_blank" class="text-primary">Darren O'Connor</a></strong> (Google) Birdy and the Snake - <a href="files/iNOG6_Darren.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary">Pallavi Ramaraju</strong> (Airbnb) IT Operations: Bringing Dev &amp; Ops Together) - <a href="files/iNOG6_Pallavi.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/cmsirbu" target="_blank" class="text-primary">Cristian Sirbu</a></strong> (Redbit) Automation, one step at a time (demo) - <a href="http://www.trueneutral.eu/2016/automation-one-step-1.html" target="_blank" class="text-warning"><strong>README</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/richard_sheehan" target="_blank" class="text-primary">Richard Sheehan</a></strong> (Facebook) Network Monitoring @ Facebook - <a href="files/inog6-RS-Netmon-scale.pptx" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          </ul>
+          <p>Many thanks to Jose for kicking it all off (<a href="https://www.facebook.com/media/set/?set=a.10154037472419083.1073741886.602899082&type=1&l=045e21d227" target="_blank" class="text-primary">and taking photos</a>) and Jennifer + <strong><a href="https://www.facebook.com/careers/" target="_blank" class="text-success">Facebook</a></strong> for hosting us in the new event space (with *all* the Irish craft beers, drinks, and food). Hat tip also to Richard and gang for the cocktails and giggles in the engine room! We hope you connected and met both old and new friends alike... as donkey would say, crackalackin!</p>
+          <div class="col-lg-3"><p><a href="img/inog-m-6-3.jpg" target="_blank"><img src="img/inog-m-6-3.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-6-2.jpg" target="_blank"><img src="img/inog-m-6-2.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-6-1.jpg" target="_blank"><img src="img/inog-m-6-1.jpg" class="img-responsive"></a></p></div>
+          <div class="col-lg-3"><p><a href="img/inog-m-6-4.jpg" target="_blank"><img src="img/inog-m-6-4.jpg" class="img-responsive"></a></p></div>
+        </div>
+        <div class="col-lg-6">
+          <h3>And now with moving pictures!<br></h3>
+          <p class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/zQN7Uj-FSxE" frameborder="0" allowfullscreen></iframe></p>
+          <p>Special thanks to Darragh and Mike who did an amazing job on the AV and Video Production to make us all look a lot better than we were!</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>iNOG::5 <small>26.01.2016</small></h3>
+          <p class="h5">Babel-networks and navigating internally conscious darkwebs!</p>
+
+          <p>150mins and ~45 (or so) netengs @ Workday for live demos and super important mental health topics! With a slight format change this time we socialised, drank, and snacked first, and then were treated to:</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/argally" target="_blank" class="text-primary">Amanda Galligan</a></strong> (Workday) On Network As Code (with 2 live demos!) - <a href="files/net_as_code_update.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/Iamjeffvader" target="_blank" class="text-primary">Keith Humphreys</a></strong> (BT) Check Your Head (No slides, epic story, with dark subject matter balanced by wonderful wit!) - <strong>NO SLIDES</strong></li>
+          </ul>
+          <p>Special thanks to <strong><a href="https://twitter.com/argally" target="_blank" class="text-primary">Amanda</a></strong> and <strong><a href="http://www.workday.com/company/careers.php" target="_blank" class="text-success">Workday</a></strong> for hosting us in such an awesome space, with lovely drinks, and lots of pizza. Hope you all had a great time learning, sharing, and connecting! Y'all come back now ye' hear!</p>
+          <p><img src="img/inog-m-5.jpg" class="img-responsive"></p>
+        </div>
+        <div class="col-lg-6">
+          <h3>iNOG::4 <small>01.12.2015</small></h3>
+          <p class="h5">Open DDOS, CWN(Community Wireless Networks), and Jupiter Rising!</p></h3>
+
+          <p>2.5 hours and 53 netengs @ a festive Google HQ in Dublin!<br>
+          Video recordings are work in progress! Presenting we had:</p>
+          <ul>
+            <li><strong class="text-primary"><a href="https://twitter.com/zendeluca" target="_blank" class="text-primary">Vicente</a></strong> (Zendesk) On open source recipe for DDOS mitigation. - <a href="files/zendesk-ddos.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary"><a href="https://twitter.com/taktv6" target="_blank" class="text-primary">Oliver Herms</a></strong> (Google) Freifunk - Introduction to free and open wireless community networks - <a href="https://docs.google.com/presentation/d/17DjQqLBnKz0_F_fsE9PvfI8YR2NtVqDv5bxqSnM1tUs/edit" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+            <li><strong class="text-primary">Phil Sykes</strong> (Google) Jupiter rising: A decade of Clos topologies and centralized control in Google’s datacenter networks - <a href="files/Jupiter_Rising-_UKNOF_September_2015.pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          </ul>
+          <p>Much gratitude to <strong><a href="https://www.google.com/about/careers/lifeatgoogle/" target="_blank" class="text-success">Googlers</a>: <a href="https://twitter.com/_shan3k" target="_blank" class="text-success">Shane</a>, <a href="https://twitter.com/mellowdrifter" target="_blank" class="text-success">Darren</a>,</strong> and <strong><a href="http://www.costiser.ro" target="_blank" class="text-success">Costi</a></strong> for hosting us in such an lovely space with awesome Dublin views (not forgetting the pizza and drinks on Level1 too)!</p>
+
+          <p><img src="img/inog-m-4.jpg" class="img-responsive"></p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>iNOG::3 <small>06.10.2015</small></h3>
+          <p class="h5">Sharks and Pythons on-board the USS Complexity!</p>
+          <p>Two hours and 24 netengs in attendance! Woohoo, we're growing and we love it!</p>
+          <p>The whole thing was recorded and can be found on <a href="https://www.youtube.com/watch?v=hg1Udyfgr-Q" target="_blank" class="text-warning"><strong>Youtube here</strong></a>. (Many thanks to Jamie for the awesome setup!). Presenting we had:
+          <ul>
+          <li><strong class="text-primary"><a href="https://twitter.com/joseleitao" target="_blank" class="text-primary">Jose</a></strong> from Facebook (Dr. NMS or: How Facebook learned to stop worrying and love the network) - <a href="files/Facebook_Network_Monitoring_(PDF).pdf" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          <li><a href="https://twitter.com/mellowdrifter" target="_blank" class="text-primary"><strong>Darren</strong></a> from Google (Starting to code as a NetEng and side projects) - <a href="https://docs.google.com/presentation/d/1A8M-7vVPEvWoRf_CIp48cufYAONZoFojzPtADOzoygE/" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          <li><a href="https://twitter.com/cmsirbu" target="_blank" class="text-primary"><strong>Cristian</strong></a> from Redbit Networks (Sink or Swim - Cisco IWAN) - <a href="https://docs.google.com/presentation/d/1BJcXt8VWftxrmIPIKkKO9PsXOWrNLUTOXN0AF9zNgS0/" target="_blank" class="text-warning"><strong>SLIDES</strong></a></li>
+          </ul>
+          </p>
+          <p>Massive thanks to <a href="https://www.airbnb.ie/" target="_blank" class="text-success"><strong>Airbnb</strong></a> and <a href="https://twitter.com/irldexter" target="_blank" class="text-success"><strong>Donal</strong></a> for hosting us, in a fantastic location and with as many drinks, snacks and pizza as we could possibly want!</p>
+          <p><img src="img/inog-m-3.jpg" class="img-responsive"></p>
+        </div>
+        <div class="col-lg-6">
+          <h3>iNOG::2 <small>08.09.2015</small></h3>
+          <p class="h5">12!</p>
           <p><strong>What a great evening!</strong> We were hosted by the wonderful <a href="https://www.intercom.io/" target="_blank" class="text-success"><strong>Intercom</strong></a> (thanks Brian, Niamh, and Bob) and had double the numbers of iNOG::1 with 12 people attending.</p>
-          <p>Introductions, a spot of admin and two great lightning talks: first one about <a href="http://opennetworkdesign.com/" target="_blank" class="text-success"><strong>Open Network Design</strong></a> presented by Donal and the second was an excellent technical and historical journey around the Internet in Ireland with Barry Donovan from <a href="https://www.inex.ie/" target="_blank" class="text-success"><strong>INEX i.e. the Irish Internet EXchange (IX)</strong></a>.
+          <p>Introductions, a spot of admin and two great lightning talks: first one about <a href="http://opennetworkdesign.com/" target="_blank" class="text-success"><strong>Open Network Design</strong></a> presented by Donal and the second was an excellent technical and historical journey around the Internet in Ireland with Barry O'Donovan from <a href="https://www.inex.ie/" target="_blank" class="text-success"><strong>INEX i.e. the Irish Internet EXchange (IX)</strong></a>.
           </p>
           We had amateurs and professionals alike in attendance and afterwards we went for a quick drink in O'Donoghues nearby. We'd love to see you at <strong>iNOG::3 on Oct 6th 7pm at Airbnb</strong> :)
           </p>
           <p><img src="img/inog-m-2.jpg" class="img-responsive"></p>
         </div>
       </div>
-
+      <hr/>
       <div class="row">
         <div class="col-lg-6">
-          <h3>iNOG::1<br><small>A meet'n'greet, with beer, a boat and engineers.</small></h3>
+          <h3>iNOG::1 <small>11.08.2015</small></h3>
+          <p class="h5">A meet'n'greet, with beer, a boat and engineers.</p>
           <p>Graciously hosted by <a href="http://www.dospace.ie" target="_blank" class="text-success"><strong>DoSpace.ie</strong></a></p>
           <p><img src="img/inog-m-1.jpg" class="img-responsive"></p>
         </div>
-        <div class="col-lg-6">
-        </div>
       </div>
 
-      <hr>
+      <hr/>
       <footer>
-        <p><a class="text-warning" href="http://www.inog.net"><strong>iNOG</strong></a> v1.0 &copy; 2015 | <a class="text-warning" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></p>
+        <p>iNOG v1.2 &copy; 2015-2017 | <strong><a class="text-warning" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></strong> | Connect with us via the <strong><a href="http://www.meetup.com/Irish-Network-Operators-Group/" target="_blank" class="text-danger">Meetup Group</a></strong> and <strong><a href="http://slack.inog.net:3000" target="_blank" class="text-info">Slack</a></strong>.</p>
       </footer>
-    </div> <!-- /container -->
+    </div>
 
     <!-- Code of Conduct Modal -->
     <div class="modal fade" id="CofCmodal" tabindex="-1" role="dialog" aria-labelledby="CofCmodalLabel">
@@ -137,9 +305,10 @@ destination for emerging network sciences.</li>
           </div>
           <div class="modal-body">
             <p></p>
-            <p>The short version: <strong>Be excellent to each other.</strong></p>
+            <p>The short version: <strong class="text-success">Be excellent to each other.</strong></p>
             <p>Our group is dedicated to providing a harassment-free event experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof).</p>
             <p>We do not tolerate harassment of group participants in any form. Sexual language and imagery is not appropriate for any meetup venue, including talks, workshops, parties, Twitter and other online media. Group participants violating these rules may be sanctioned or expelled from the group (without a refund if applicable) at the discretion of the group organisers.</p>
+            <p>The long version is at <strong><a href="http://confcodeofconduct.com" target="_blank" class="text-warning">confcodeofconduct.com</a></strong> which is also the source for the above.</p>
           </div>
         </div>
       </div>
@@ -149,5 +318,14 @@ destination for emerging network sciences.</li>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-71357007-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
