@@ -7,4 +7,4 @@ server on port 8000 or if you prefer to use the one liner below (which doesn't
 check the python version but runs on privileged port 80 and adds a hosts entry
 for localinog.net development [not SSL'd])
 
-`cd pub && sudo python -m SimpleHTTPServer 80 && sudo sh -c "echo '127.0.0.1  localinog.net' >> /etc/hosts"` to serve local files...
+`if [ -n "$(grep -i localinog /etc/hosts)" ]; then echo "Hosts file already has entry for localinog"; else sudo sh -c "echo '127.0.0.1  localinog.net' >> /etc/hosts"; fi && cd pub && sudo python -m SimpleHTTPServer 80 && sudo sh -c "echo '127.0.0.1  localinog.net'"`
