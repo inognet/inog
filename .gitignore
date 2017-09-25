@@ -3,29 +3,12 @@
 */.DS_Store
 *.swp
 
-# Assets
-# public/assets/*[a-z0-9]{65}\.*
-#canapp/public/assets/*
-#canapp/public/system/*
-
-# Configuration files
-#canapp/config/app_config.yml
-#canapp/config/application.yml
-#canapp/config/mandrill.yml
-#canapp/config/environments/production.rb
-
 # Ignore all logfiles and tempfiles.
 log/*
 tmp
 .powder
 .virb*
 *.*~
-#canapp/shared/*
-
-# Ignore the default database.
-#/db/*.sqlite3
-#/db/*.sqlite3-journal
-#/db/*.javadb/
 
 # dotenv
 # TODO Comment out this rule if environment variables can be committed
@@ -33,10 +16,75 @@ tmp
 
 ## Environment normalization:
 #/.bundle
-#canapp/vendor/bundle
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 #.rvmrc
+
+# Ignore any virtualenvs made by me
+venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+#Ipython Notebook
+.ipynb_checkpoints
