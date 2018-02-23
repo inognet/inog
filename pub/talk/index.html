@@ -46,13 +46,14 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav navbar-right">
             <!-- <li><a class="btn btn-link" href="people.html">People</a></li> -->
-            <li><a class="btn btn-link" href="/"><i class="fa fa-home"></i></a></li>
             <li><a class="btn btn-link" href="/talk"><strong>Speak</strong></a></li>
             <li><a class="btn btn-link" href="/host">Host</a></li>
-            <li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank">Videos</a></li>
             <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></li>
-						<li><a class="btn btn-link" href="http://slack.inog.net:3000/" target="_blank"><i class="fa fa-slack"></i></a></li>
-            <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="btn btn-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2G5FHFNVAUBNC" data-toggle="tooltip" data-placement="bottom" title="via Defensible Limited">Donate <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="on YouTube">Videos <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li><a class="btn btn-link" href="/" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a></li>
+						<li><a class="btn btn-link" href="http://slack.inog.net:3000/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Slack Invite"><i class="fa fa-slack"></i></a></li>
+            <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a></li>
           </ul>
         </div>
       </div>
@@ -156,6 +157,11 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-71357007-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
     </script>
   </body>
 </html>
