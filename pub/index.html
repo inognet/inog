@@ -29,8 +29,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/inog.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -54,14 +54,14 @@
       <div class="navbar-collapse collapse" id="navbar-main">
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a class="btn btn-link" href="people.html">People</a></li> -->
-          <li><a class="btn btn-link" href="/talk">Speak</a></li>
-          <li><a class="btn btn-link" href="/host">Host</a></li>
-          <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></li>
-          <li><a class="btn btn-link" id="donate" data-toggle="modal" data-target="#Donatemodal" data-toggle="tooltip" data-placement="bottom" title="via Defensible Limited">Donate</a></li>
-          <li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="on YouTube">Videos <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
           <li><a class="btn btn-link" href="/" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a></li>
-          <li><a class="btn btn-link" href="https://inog.net/slack/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Slack Invite"><i class="fa fa-slack"></i></a></li>
-          <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="btn btn-link" href="/talk" data-toggle="tooltip" data-placement="bottom" title="Propose a talk !">Speak</a></li>
+          <li><a class="btn btn-link" href="/host" data-toggle="tooltip" data-placement="bottom" title="Bring iNOG to your space">Host</a></li>
+          <li><a class="btn btn-link" id="donate" data-toggle="modal" data-target="#Donatemodal" data-toggle="tooltip" data-placement="bottom" title="Support the community!">Donate <i class="far fa-money-bill-alt"></i></a></li>
+          <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal" data-toggle="tooltip" data-placement="bottom" title="Setting the bar">Code of Conduct</a></li>
+          <li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="on YouTube">Videos <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a class="btn btn-link" href="https://inog.net/slack/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Join us online, grab a Slack invite">Slack <i class="fab fa-slack"></i></a></li>
+          <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Announcements and event info!">Twitter <i class="fab fa-twitter"></i></a></li>
         </ul>
       </div>
     </div>
@@ -74,8 +74,9 @@
         <!-- double box <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> -->
           <h1>Hello, networkers!</h1>
           <p>Help us build an open, diverse, and inclusive <strong>Community of Practice</strong> around network engineering. The <b>Irish Network Operators Group (iNOG)</b> is re-birthing community focused on learning, sharing, connecting, and having fun. We are <b>omnigender friendly</b>!</br>
-          <a class="btn btn-sm btn-success" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a> &nbsp;
-          <a class="btn btn-sm btn-outline btn-default" data-toggle="modal" data-target="#Donatemodal" data-toggle="tooltip" data-placement="right" title="via Defensible Limited">Donate To iNOG</a> &nbsp;
+          <a class="btn btn-success" href="https://inog.net/slack/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Join us online, grab a Slack invite">Join us on Slack <i class="fab fa-slack"></i></a> &nbsp;
+          <a class="btn btn-outline btn-default" data-toggle="modal" data-target="#Donatemodal" data-toggle="tooltip" data-placement="bottom" title="Support the community!">Donate via Magic Tickets <i class="far fa-money-bill-alt"></i></a> &nbsp;
+          <a class="btn btn-warning" href="/talk" data-toggle="tooltip" data-placement="bottom" title="Share what you know!"><strong>Propose a Talk <i class="far fa-comment-dots"></i></strong></a> &nbsp;
         </div>
         <!-- for double box layout just duplicate the following div and swap commented div above-->
         <div class="col-lg-offset-0 col-lg-3 col-md-offset-0 col-md-3 col-sm-offset-3 col-sm-6 col-xs-offset-2 col-xs-8">
@@ -84,7 +85,7 @@
             <p>Thu 6 Jun 2019
             <br>6 to 9 PM
             <br>Indeed, Capital Docks</p>
-            <p><a href="https://ti.to/inog/13" target="_blank" class="btn btn-warning"><strong>RSVP iNOG::13</strong></a></p>
+            <p><a href="https://ti.to/inog/13" target="_blank" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Come, learn, connect, laugh!"><strong>RSVP iNOG::13</strong></a></p>
             <p><small class="futuremeets"></small></p>
           </div>
         </div>
@@ -558,6 +559,7 @@ openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodee) -->
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
+        $('[data-toggle="modal"]').tooltip()
       })
 
     $(document).ready(function() {

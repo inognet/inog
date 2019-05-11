@@ -25,12 +25,13 @@
     <title>Ireland Network Operators Group</title>
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap-paper.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="../css/bootstrap-paper.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/inog.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="../css/inog.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,14 +54,14 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav navbar-right">
             <!-- <li><a class="btn btn-link" href="people.html">People</a></li> -->
-            <li><a class="btn btn-link" href="/talk"><strong>Speak</strong></a></li>
-            <li><a class="btn btn-link" href="/host">Host</a></li>
-            <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></li>
-            <li><a class="btn btn-link" id="donate" data-toggle="modal" data-target="#Donatemodal" data-toggle="tooltip" data-placement="bottom" title="via Defensible Limited">Donate</a></li>
-<li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="on YouTube">Videos <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-            <li><a class="btn btn-link" href="/" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a></li>
-						<li><a class="btn btn-link" href="https://inog.net/slack/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Slack Invite"><i class="fa fa-slack"></i></a></li>
-            <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="btn btn-link" href="/" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home"></i></a></li>
+          <li><a class="btn btn-link" href="/talk" data-toggle="tooltip" data-placement="bottom" title="Propose a talk !">Speak</a></li>
+          <li><a class="btn btn-link" href="/host" data-toggle="tooltip" data-placement="bottom" title="Bring iNOG to your space">Host</a></li>
+          <li><a class="btn btn-link" id="donate" data-toggle="modal" data-target="#Donatemodal" data-toggle="tooltip" data-placement="bottom" title="Support the community!">Donate <i class="far fa-money-bill-alt"></i></a></li>
+          <li><a class="btn btn-link" data-toggle="modal" data-target="#CofCmodal" data-toggle="tooltip" data-placement="bottom" title="Setting the bar">Code of Conduct</a></li>
+          <li><a class="btn btn-link" href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="on YouTube">Videos <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          <li><a class="btn btn-link" href="https://inog.net/slack/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Join us online, grab a Slack invite">Slack <i class="fab fa-slack"></i></a></li>
+          <li><a class="btn btn-link" href="https://twitter.com/inognet" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Announcements and event info!">Twitter <i class="fab fa-twitter"></i></a></li>
           </ul>
         </div>
       </div>
@@ -153,14 +154,14 @@
         </div>
         <div class="col-lg-8">
 					<center><h3>We @ iNOG would love to hear from you!</h3></center>
-          <center><h5>Got a <strong>15 or 30 min</strong> presentation, PoC (Proof of Concept), or demo?</h5></center>
+          <center><h5>Got a <strong>15-20 min</strong> presentation, PoC (Proof of Concept), or demo?</h5></center>
           <p><center><a href="https://goo.gl/forms/yGjuUhFL6Zxx2e8o2" target="_blank" class="btn btn-lg btn-block btn-success"><strong>Propose a Talk!</strong></a></center></p>
 					</br>
           <p><span class="label label-primary">Content</span> We (the iNOG community) are open to any topic of relevance to our trade, be it <strong>anything to do with network technologies all the way through to work-life balance or mental health</strong>. Ongoing community feedback has shown that the most successful talks focus on stories from the trenches, demos, new research, or case studies. Keeping presentations <strong>non-commercial and relevant</strong> to a highly diverse technical audience means that <strong>product marketing, recruitment, or sales presentations will not be accepted</strong> by the iNOG Programme Committee. Technically our desire is for ‘beginner’ and ‘advanced’ level talks (not necessarily intermediate) which means that there’s always something for everyone in the audience. We also subscribe to and are very serious about our <u><strong><a class="text-primary" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></strong></u> in relation to talks.</p>
 
           <p><span class="label label-primary">Timing</span> Talk duration can be variable, although it must fall into one of the two categories: <strong>Lightning Talk</strong> (up to 15 minutes) or <strong>Thunder Talk</strong> (up to 30 minutes). These slots include allocated time for questions, which are generally 1-5 minutes at the end.</p>
 
-          <p><span class="label label-primary">Location</span> So far our events have been in Dublin, Ireland, at one of our wonderful host venues (usually in the city center). We can’t pay for travel, accommodation, or expenses at the moment, so it’s important to reach out to check the proposed dates for future iNOGs (to get a rough idea whether you are going to be in town). <u><strong><a target="_blank" class="text-primary" href="http://www.meetup.com/Irish-Network-Operators-Group/">Prospective dates and RSVPs</a></strong></u>.</p>
+          <p><span class="label label-primary">Location</span> So far our events have been in Dublin, Ireland, at one of our wonderful host venues (usually in the city center). We can’t pay for travel, accommodation, or expenses at the moment, so it’s important to reach out to check the proposed dates for future iNOGs (to get a rough idea whether you are going to be in town). <u><strong><a class="text-primary" href="../host">Prospective dates and RSVPs</a></strong></u>.</p>
 
           <p><span class="label label-primary">Examples</span> At iNOG we’ve had everything from first time speakers to industry veterans (and everything in between). We encourage you to come and try out your <strong>Lightning Talk</strong> even if you’ve never spoken at a Meetup or Conference before! It’s great experience (we’re super supportive) and we help you every step of the way. Check out some previous talks to get an idea by visiting our</br><center><u><strong><a href="https://www.youtube.com/channel/UCBl3zIF_JJZd1iOjvU1ItZw?sub_confirmation=1" class="text-primary" target="_blank">Youtube channel</a></strong></u></center></p>
 
