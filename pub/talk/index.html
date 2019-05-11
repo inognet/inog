@@ -32,6 +32,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/inog.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -117,7 +118,7 @@
     </div>
 
     <div class="jumbotron">
-      <div class="container">
+      <div class="container lozad" data-background-image="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
         <div class="col-lg-12">
           <center><h1>Come and speak at iNOG!</h1></center>
         </div>
@@ -128,22 +129,22 @@
   		 <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
   				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
   					<p>
-  						<a href="/img/inog-m-a-5.jpg" target="_blank"><img src="/img/inog-m-a-5.jpg" class="img-responsive"></a>
+  						<a href="/img/inog-m-a-5.jpg" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/inog-m-a-5.jpg" class="img-responsive lozad"></a>
   					</p>
   				</div>
   				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
   					<p>
-  					 <a href="/img/inog-m-8-1.jpg" target="_blank"><img src="/img/inog-m-8-1.jpg" class="img-responsive"></a>
+  					 <a href="/img/inog-m-8-1.jpg" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/inog-m-8-1.jpg" class="img-responsive lozad"></a>
   					</p>
   				</div>
   				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
   					<p>
-  						<a href="/img/inog-m-6-5.jpg" target="_blank"><img src="/img/inog-m-6-5.jpg" class="img-responsive"></a>
+  						<a href="/img/inog-m-6-5.jpg" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/inog-m-6-5.jpg" class="img-responsive lozad"></a>
   					</p>
   				</div>
   				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
   					<p>
-  					 <a href="/img/inog-m-8-4.jpg" target="_blank"><img src="/img/inog-m-8-4.jpg" class="img-responsive"></a>
+  					 <a href="/img/inog-m-8-4.jpg" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/inog-m-8-4.jpg" class="img-responsive lozad"></a>
   					</p>
   				</div>
   		 </div>
@@ -182,6 +183,12 @@
         <p>iNOG v1.2 &copy; 2015-2017 | <strong><a class="text-warning" data-toggle="modal" data-target="#CofCmodal">Code of Conduct</a></strong> | Connect with us via the <strong><a href="http://www.meetup.com/Irish-Network-Operators-Group/" target="_blank" class="text-danger">Meetup Group</a></strong> and <strong><a href="https://inog.net/slack/" target="_blank" class="text-info">Slack</a></strong>.</p>
       </footer>
     </div>
+
+    <script>
+    const el = document.querySelectorAll('img');
+    const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+    observer.observe();
+    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
