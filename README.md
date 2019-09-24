@@ -1,6 +1,6 @@
 # iNOG main website
 
-Repository for homepage of [Ireland's Network Operator Group](https://inog.net).
+Repository for the homepage of [Ireland's Network Operator Group](https://inog.net).
 
 Please use the supplied `devserver.sh` script in the directory to start a python
 server on port 8000 or if you prefer to use the one liner below (which doesn't
