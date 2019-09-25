@@ -1,6 +1,6 @@
 # iNOG main website
 
-Repository for homepage of [Ireland's Network Operator Group](https://inog.net).
+Repository for the homepage of [Ireland's Network Operator Group](https://inog.net).
 
 We welcome and love all pull requests! Please, however, test your changes below and also ensure you are using lazy loading classes on all images and videos.
 
