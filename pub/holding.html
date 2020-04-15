@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>iNOG::14v Lobby</title>
+  <meta name="description" content="iNOG::14v Lobby">
+  <meta name="author" content="iNOG Team">
+<style>
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./img/inog14v_holding_v1.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video {
+    position: absolute;
+    top: 48%;
+    left: 49%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+</style>
+
+</head>
+
+<body>
+<div class="bg">
+<video class="video" width="800" height="500" autoplay loop muted>
+  <source src="./img/holding.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+</div>
+</body>
+</html>
