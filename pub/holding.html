@@ -14,7 +14,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("./img/inog14v_holding_v1.png");
+  background-image: url("./img/holding.mp4");
 
   /* Full height */
   height: 100%;
@@ -32,16 +32,55 @@ body, html {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  font-size: 2em !important;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+html *
+{
+   font-family: Arial !important;
+}
 </style>
 
 </head>
 
 <body>
-<div class="bg">
-<video class="video" width="640" height="320" autoplay loop muted>
-  <source src="./img/holding.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
+<video autoplay muted loop id="myVideo">
+  <source src="./img/holding.mp4" type="video/mp4">
 </video>
+<div class="content">
+  <h1>iNOG::14v <br>Friday 17th April 4pm UTC+1</h1>
+  <p>Please wait...</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
 </div>
 </body>
 </html>
