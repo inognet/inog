@@ -41,3 +41,11 @@ body {
     color: #d1d6e1;
     font-size: 70%;
 }
+img.banner {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  /* pick whatever ratio fits your grid */
+  object-fit: cover;
+  object-position: center;
+  /* adjust if important content gets cropped off-center */
+}
